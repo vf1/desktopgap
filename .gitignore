@@ -6,7 +6,10 @@
 *.log
 *.sdf
 *.aps
+*.opensdf
+*.suo
 Release/
 Debug/
+ipch/
 CEF/*
 !CEF/README.md
