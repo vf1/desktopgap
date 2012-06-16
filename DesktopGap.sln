@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DesktopGap", "DesktopGap\DesktopGap.vcxproj", "{A46886F8-9947-48D3-AFFC-6E5CB7AC5407}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "MergeModule", "MergeModule\MergeModule.vdproj", "{E2BD3AA0-6159-48F1-9F49-D1A3576DA9F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A46886F8-9947-48D3-AFFC-6E5CB7AC5407}.Debug|Win32.ActiveCfg = Debug|Win32
+		{A46886F8-9947-48D3-AFFC-6E5CB7AC5407}.Debug|Win32.Build.0 = Debug|Win32
+		{A46886F8-9947-48D3-AFFC-6E5CB7AC5407}.Release|Win32.ActiveCfg = Release|Win32
+		{A46886F8-9947-48D3-AFFC-6E5CB7AC5407}.Release|Win32.Build.0 = Release|Win32
+		{E2BD3AA0-6159-48F1-9F49-D1A3576DA9F1}.Debug|Win32.ActiveCfg = Debug
+		{E2BD3AA0-6159-48F1-9F49-D1A3576DA9F1}.Debug|Win32.Build.0 = Debug
+		{E2BD3AA0-6159-48F1-9F49-D1A3576DA9F1}.Release|Win32.ActiveCfg = Release
+		{E2BD3AA0-6159-48F1-9F49-D1A3576DA9F1}.Release|Win32.Build.0 = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,2 +1,2 @@
-DesktopGap
+DesktopGap for Windows
 ==========

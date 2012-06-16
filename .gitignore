@@ -1,0 +1,12 @@
+*.exe
+*.obj
+*.pch
+*.res
+*.tlog
+*.log
+*.sdf
+*.aps
+Release/
+Debug/
+CEF/*
+!CEF/README.md
