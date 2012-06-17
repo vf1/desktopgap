@@ -47,6 +47,10 @@ CefRefPtr<CefResourceHandler> CefHandlers::GetResourceHandler(
 
 	if(url.find(special) == 0)
 	{
+		int question = url.find_last_of('?');
+		if(question >= 0)
+			url = url.substr(0, question);
+
 		return GetFileHandler(url.substr(special.length()));
 	}
 
